@@ -1,4 +1,6 @@
-# Minhas resoluções de problemas do site beecrowd
+# Problemas Beecrowd
+
+Minhas resoluções dos problemas do site beecrowd.
 
 Linguagem utilizada: Python 3.9
 
