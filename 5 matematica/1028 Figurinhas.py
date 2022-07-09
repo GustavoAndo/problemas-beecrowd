@@ -2,9 +2,10 @@ n = int(input())
 
 for i in range(n):
     f = [int(i) for i in input().split()]
-    f1, f2 = f[0], f[1]
+    f1, f2 = min(f), max(f)
 
-    for i in range(min(f), 1, -1):
-        if f1 % i == 0 and f2 % i == 0:
-            print(i)
-            break
+    while True:
+        if f1%f2 == 0: break
+        f1, f2 = f2, f1%f2
+        
+    print(f2)
